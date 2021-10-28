@@ -4,33 +4,31 @@
  */
 package Controladores;
 
-import Vistas.MaestrosPanel;
 import Vistas.PlantillaSeleccion;
-
+import Vistas.VentasPanel;
 
 /**
  *
  * @author usuario
  */
-public class ControladorMaestros {
-    private final MaestrosPanel panel;
+public class ControladorVentas {
+    private final VentasPanel panel;
     private final PlantillaSeleccion view;
     
-    public ControladorMaestros(PlantillaSeleccion plantilla){
-        this.panel = new MaestrosPanel();
+    public ControladorVentas(PlantillaSeleccion plantilla){
+        this.panel = new VentasPanel();
         this.view = plantilla;
         this.view.setVisible(false);
         this.panel.setVisible(false);
     }
     
-    public PlantillaSeleccion getView(){
-        return this.view;
-    }
-    
-    public void showMenuMaestros(){
+    public void showMenuVentas(){
         this.panel.setVisible(true);
-        this.view.subtituloLabel.setText("Maestros");
+        this.view.subtituloLabel.setText("Ventas");
         this.view.setVisible(true);
     }
     
+    public PlantillaSeleccion getView(){
+        return this.view;
+    }
 }

@@ -110,30 +110,20 @@ public class PlantillaSeleccion extends javax.swing.JPanel {
 
         add(logOutPanel, java.awt.BorderLayout.PAGE_END);
 
-        javax.swing.GroupLayout contentPanelLayout = new javax.swing.GroupLayout(contentPanel);
-        contentPanel.setLayout(contentPanelLayout);
-        contentPanelLayout.setHorizontalGroup(
-            contentPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 531, Short.MAX_VALUE)
-        );
-        contentPanelLayout.setVerticalGroup(
-            contentPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
-
+        contentPanel.setLayout(new java.awt.CardLayout());
         add(contentPanel, java.awt.BorderLayout.CENTER);
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton atrasButton;
-    private javax.swing.JPanel contentPanel;
-    private javax.swing.JPanel headerPanel;
-    private javax.swing.JLabel iconLabel;
+    public javax.swing.JButton atrasButton;
+    protected javax.swing.JPanel contentPanel;
+    protected javax.swing.JPanel headerPanel;
+    public javax.swing.JLabel iconLabel;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JPanel logOutPanel;
-    private javax.swing.JButton salirButton;
-    protected javax.swing.JLabel subtituloLabel;
+    protected javax.swing.JLabel jLabel4;
+    protected javax.swing.JPanel logOutPanel;
+    public javax.swing.JButton salirButton;
+    public javax.swing.JLabel subtituloLabel;
     // End of variables declaration//GEN-END:variables
 }

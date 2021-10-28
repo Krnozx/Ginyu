@@ -8,14 +8,13 @@ package Vistas;
  *
  * @author usuario
  */
-public class VistaMaestros extends PlantillaSeleccion {
+public class VentasPanel extends javax.swing.JPanel {
 
     /**
-     * Creates new form VistaMaestros
+     * Creates new form VentasPanel
      */
-    public VistaMaestros() {
+    public VentasPanel() {
         initComponents();
-        this.subtituloLabel.setText("Maestros");
     }
 
     /**
@@ -27,7 +26,16 @@ public class VistaMaestros extends PlantillaSeleccion {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setLayout(new java.awt.CardLayout());
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
     }// </editor-fold>//GEN-END:initComponents
 
 

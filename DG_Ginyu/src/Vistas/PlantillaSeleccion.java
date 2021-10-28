@@ -134,6 +134,6 @@ public class PlantillaSeleccion extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel logOutPanel;
     private javax.swing.JButton salirButton;
-    private javax.swing.JLabel subtituloLabel;
+    protected javax.swing.JLabel subtituloLabel;
     // End of variables declaration//GEN-END:variables
 }
